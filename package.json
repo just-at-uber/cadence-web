@@ -24,6 +24,7 @@
     "npm": "^5"
   },
   "dependencies": {
+    "css-loader": "^0.28.11",
     "deepmerge": "^2.0.0",
     "extract-text-webpack-plugin": "^3.0.1",
     "file-loader": "^1.1.5",
@@ -47,6 +48,7 @@
     "moment": "^2.19.1",
     "prismjs": "^1.14.0",
     "promise.prototype.finally": "^3.1.0",
+    "style-loader": "^1.1.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "tchannel": "^3.9.11",
@@ -69,12 +71,10 @@
     "chai": "^4.1.2",
     "chai-dom": "^1.7.0",
     "chai-things": "^0.2.0",
-    "css-loader": "^0.28.11",
     "fetch-mock": "^5.13.1",
     "mocha": "^4.0.1",
     "mocha-chrome": "^1.1.0",
     "nathanboktae-browser-test-utils": "^0.1.0",
-    "style-loader": "^1.1.1",
     "supertest": "^3.0.0",
     "webpack-hot-client": "^1.3.0"
   }
