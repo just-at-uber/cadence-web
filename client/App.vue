@@ -46,8 +46,8 @@ export default {
   </main>
 </template>
 
+<style src="vue-virtual-scroller/dist/vue-virtual-scroller.css"></style>
 <style lang="stylus">
-@import "../node_modules/vue-virtual-scroller/dist/vue-virtual-scroller.css"
 @import "https://d1a3f4spazzrp4.cloudfront.net/uber-fonts/4.0.0/superfine.css"
 @import "https://d1a3f4spazzrp4.cloudfront.net/uber-icons/3.14.0/uber-icons.css"
 @require "./styles/definitions"
