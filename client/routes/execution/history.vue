@@ -106,7 +106,11 @@
                   @click.prevent="selectTimelineEvent(item)"
                 >
                   <span class="event-title">{{item.content}}</span>
-                  <details-list :item="item.details" :title="item.content" />
+                  <details-list
+                    :compact="true"
+                    :item="item.details"
+                    :title="item.content"
+                  />
                 </div>
               </template>
             </RecycleScroller>
