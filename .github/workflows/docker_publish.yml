@@ -22,7 +22,7 @@ jobs:
         with:
           username: ${{ secrets.CADENCE_WEB_DOCKERHUB_USERNAME }}
           password: ${{ secrets.CADENCE_WEB_DOCKERHUB_TOKEN }}
-          repository: ubercadence/web
+          repository: justatuber/web
           tag_with_ref: true
           tags: latest
   push_to_ghcr:
