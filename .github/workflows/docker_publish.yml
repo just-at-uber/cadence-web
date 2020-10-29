@@ -35,7 +35,7 @@ jobs:
         if: "!github.event.release.prerelease"
         uses: docker/build-push-action@v1
         with:
-          username: ${{ github.actor }}
+          username: ${{ secrets.CADENCE_WEB_GHCR_USERNAME }}
           password: ${{ secrets.CADENCE_WEB_GHCR_PAT }}
           repository: ghcr.io/just-at-uber/cadence-web/web
           tag_with_ref: true
